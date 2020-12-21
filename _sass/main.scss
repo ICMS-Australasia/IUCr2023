@@ -46,16 +46,68 @@ body, html {
   .navigation {
     background: #f2f2f2;
     border-radius: 50px;
+    .navbar {
+      padding: 0px;
+    }
+    .nav-link {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+    .active {
+      background: $black;
+      &.nav-link { color: white; }
+    }
+    .dropdown-menu {
+      border: none;
+      background: #f2f2f2;
+      a {
+        transition: all 0.2s ease-in-out;
+        &:hover {
+          background: darken(#f2f2f2, 10%);
+        }
+      }
+    }
   }
 }
 
 .banner {
   background: url("../img/banner.png");
-  height: 600px;
+  height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+  .row {
+    height: 100%;
+  }
+  .date {
+    font-size: 1.8em;
+    span {
+      font-size: 1.2em;
+    }
+  }
+  .name {
+    font-size: 4.8em; font-weight: 900;
+    line-height: 1.4em;
+    span {
+      font-size: 1.2em; font-weight: 800;
+    }
+  }
+  .location {
+    font-size: 2em; font-weight: bold;
+    span {
+      font-size: 1.2em;
+    }
+  }
+  //Mobile
+  @media (max-width: 768px) {
+    height: 500px;
+    .date { font-size: 1.2em; }
+    .name { font-size: 2.5em; }
+    .location { font-size: 1.3em; }
+  }
 }
 
 .page-banner {
@@ -68,6 +120,7 @@ body, html {
     font-size: 5em;
     font-weight: bold;
     color: white;
+    text-shadow: 2px 2px 4px #000;
   }
 }
 
