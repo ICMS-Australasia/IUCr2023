@@ -17,7 +17,7 @@
       {% include header.html %}
 
       <div class="page-banner py-5">
-        <div class="container">
+        <div class="container my-4">
           <div class="row">
             <div class="col p-0">
               <h1>{{ page.title }}</h1>
@@ -29,7 +29,7 @@
       <div class="page-content">
         <div class="container my-5">
           <div class="row">
-            <div class="col-9">
+            <div class="col-12 col-md-9">
               {{ content }}
             </div>
             <div class="col-md-3">
@@ -82,6 +82,7 @@
           </div>
         </div>
       </div>
+      {% include eoi.html %}
       {% include cards.html %}
       {% include footer.html %}
     </body>

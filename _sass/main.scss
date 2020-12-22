@@ -72,13 +72,19 @@ body, html {
 
 .banner {
   background: url("../img/banner.png");
-  height: 700px;
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 4px #000;
+  a, img {
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
   .row {
     height: 100%;
   }
@@ -121,6 +127,25 @@ body, html {
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 4px #000;
+  }
+}
+
+.countdown {
+  background: $dblue;
+  color: white;
+  h1 {
+    font-weight: 900; font-size: 2.5em;
+    text-shadow: 2px 2px 4px #000;
+    span {
+      font-size: 1.1em;
+    }
+  }
+  h2 {
+    font-weight: 900; font-size: 2em;
+    text-shadow: 2px 2px 4px #000;
+    span {
+      font-size: 1.1em;
+    }
   }
 }
 
@@ -170,6 +195,13 @@ body, html {
   h6 {
     font-size: 1.5em;
   }
+  a {
+    text-decoration: underline;
+    color: $dyellow;
+    &:hover {
+      color: lighten($dyellow, 10%);
+    }
+  }
   .button {
     width: 100%;
     background-color: $lyellow;
@@ -189,6 +221,45 @@ body, html {
     tr {
       border-bottom: 1px solid $dpink;
     }
+  }
+  .things-to-do {
+      h4 {
+          position: absolute;
+          color: white;
+          background: rgba(0, 148, 68, 0.9);
+          width: 100%;
+          bottom: 0px;
+          left: 0px;
+          font-size: 1em;
+          border-style: none;
+          span {
+            font-size: 1.2em;
+          }
+      }
+      .over {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: rgba(0, 148, 68, 0.95);
+          p {
+              font-size: 1em;
+              font-weight: bold;
+              color: white;
+              margin: 0;
+          }
+          &:hover {
+              opacity: 1;
+          }
+          &:focus {
+              opacity: 1;
+          }
+      }
   }
 }
 
