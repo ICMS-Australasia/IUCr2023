@@ -24,7 +24,7 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="date my-3 my-md-0">22 - 29 <span>A</span>UGUST 2023 | <span>M</span>ELBOURNE 2023</div>
-                    <div class="name my-3 my-md-0"><span>I</span>NTERNATIONAL <br> <span>U</span>NION OF <br> <span>C</span>RYSTALLOGRAPHY</div>
+                    <div class="name my-3 my-md-0">26<sup>th</sup> <span>C</span>ONGRESS OF THE <br> <span>I</span>NTERNATIONAL <br> <span>U</span>NION OF <br> <span>C</span>RYSTALLOGRAPHY</div>
                     <div class="location my-3 my-md-0"><span>M</span>ELBOURNE <span>C</span>ONVENTION & <span>E</span>XHIBITION <span>C</span>ENTRE</div>
                   </div>
                   <div class="carousel-item">
@@ -144,7 +144,7 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
         // Display the result in the element with id="demo"
-        document.getElementById("countdown").innerHTML = `<span>${years}</span>Y <span>${days}</span>D <span>${hours}</span>H <span>${minutes}</span>M <span>${seconds}</span>S`;
+        document.getElementById("countdown").innerHTML = `<span>${years}</span> Years <span>${days}</span> Days <span>${hours}</span> Hours <span>${minutes}</span> Months <span>${seconds}</span> Seconds`;
         // If the count down is finished, write some text
         if (distance < 0) {
           clearInterval(x);
