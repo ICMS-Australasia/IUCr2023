@@ -14,5 +14,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ##### Proudly hosted by
 
-[<img src="./assets/img/scanz.png" alt="SCANZ" width="100">](https://scanz.iucr.org/){:  target="_blank"}
-{:.mb-0}
+<div class="row align-items-center">
+  <div class="col-md-6">
+    <a href="https://www.iucr.org/" target="_blank" class="float-right mr-4"><img src="./assets/img/iucr-logo.jpg" alt="IUCr" width="100"></a>
+  </div>
+  <div class="col-md-6">
+    <a href="https://scanz.iucr.org/" target="_blank" class="float-left ml-4"><img src="./assets/img/scanz.png" alt="SCANZ" width="100"></a>
+  </div>
+</div>
