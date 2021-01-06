@@ -5,7 +5,7 @@ title: ""
 
 ![Welcome to IUCr2023](./assets/img/welcome.png){: width="100%" .img-fluid .mb-4}
 
-On behalf of the Local Organising Committee of the 26th Congress and General Assembly of the International Union of Crystallography and the Society of Crystallographers in Australia and New Zealand, we would like to extend our warmest invitation to you and your family to join us at the IUCr Congress in Melbourne, Australia from August 22-29, 2023.
+On behalf of the Local Organising Committee of the 26th Congress and General Assembly of the International Union of Crystallography and the Society of Crystallographers in Australia and New Zealand, we would like to extend our warmest invitation to you and your family to join us at the IUCr Congress in Melbourne, Australia from August 22-29 2023.
 
 The last congress to be held in Australia was in August 1987 in Perth. For those fortunate to attend it still holds fond memories, as well as having provided an ongoing legacy for crystallography in Australia. Building on the 1987 experience, our Congress will focus on equity, diversity and inclusiveness and we will achieve this, in part, through gender balance, strong international attendance and provision of family friendly facilities. A particular emphasis will be placed on student and early career researcher participation. This will enable us to deliver an outstanding scientific program that is accessible to all attendees.
 
