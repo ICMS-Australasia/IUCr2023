@@ -23,7 +23,7 @@ ICMS Australasia\
 [emmab@icmsaust.com.au](mailto:emmab@icmsaust.com.au)\
 +61 2 9254 5000
 
-[Express your Interest in Sponsoring](./){:.button .text-center .my-4}
+[Express your Interest in Sponsoring](https://icmsaust.eventsair.com/iucr-2023/expression-of-interest){:.button .text-center .my-4 target="_blank"}
 
 ### Supporters
 {:.my-4}
