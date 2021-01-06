@@ -1,9 +1,9 @@
 ---
-layout: homepage
-title: ""
+layout: page
+title: "Invitation"
 ---
 
-![Welcome to IUCr2023](./assets/img/welcome.png){: width="100%" .img-fluid .mb-4}
+![Welcome to IUCr2023](./assets/img/welcome.png){: width="85%" .img-fluid .mb-4 .mx-auto .d-block}
 
 On behalf of the Local Organising Committee of the 26th Congress and General Assembly of the International Union of Crystallography and the Society of Crystallographers in Australia and New Zealand, we would like to extend our warmest invitation to you and your family to join us at the IUCr Congress in Melbourne, Australia from 22-29 August 2023.
 
@@ -25,8 +25,8 @@ IUCr 2023
 
 <!-- [Read more](./about.html){:.button .my-4} -->
 
-##### Proudly hosted by
-{:.mt-4}
+<!-- ##### Proudly hosted by
+{:.mt-4 .text-center}
 
 <div class="row align-items-center">
   <div class="col-md-6">
@@ -35,4 +35,4 @@ IUCr 2023
   <div class="col-md-6">
     <a href="https://scanz.iucr.org/" target="_blank" class="float-left ml-4"><img src="./assets/img/scanz.png" alt="SCANZ" width="100"></a>
   </div>
-</div>
+</div> -->
