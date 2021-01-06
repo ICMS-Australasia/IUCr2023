@@ -29,6 +29,6 @@ ICMS Australasia\
 {:.my-4}
 
 <div class="row">
-  <div class="col-md-3"><a href=""><img src="./assets/img/sponsors/melbourne-convention-bureau.jpg" class="img-fluid"></a></div>
-  <div class="col-md-3"><a href=""><img src="./assets/img/sponsors/melbourne-victoria-australia.jpg" class="img-fluid"></a></div>
+  <div class="col-md-3"><a href="https://www.melbournecb.com.au/" target="_blank"><img src="./assets/img/sponsors/melbourne-convention-bureau.jpg" class="img-fluid"></a></div>
+  <div class="col-md-3"><a href="https://www.visitmelbourne.com/Regions/Melbourne" target="_blank"><img src="./assets/img/sponsors/melbourne-victoria-australia.jpg" class="img-fluid"></a></div>
 </div>
