@@ -302,14 +302,19 @@ body, html {
 
 .cards {
   background: #f2f2f2;
-  h5 {
+  h4 {
     font-weight: bold;
+    margin-bottom: 1.5rem;
   }
   a { text-decoration: none; }
   .card {
+    img {
+      height: 300px;
+      object-fit: cover;
+    }
     &.yellow {
       .card-icon { color: white; background: $dyellow; font-size: 1.1em; transform: translate(-50%, -50%); left: 50%; border-top-left-radius: calc(50%); border-bottom-right-radius: calc(50%); transition: all 0.2s ease-in-out; }
-      .card-body { color: white; background: $lyellow; transition: all 0.2s ease-in-out; }
+      .card-body { color: white; background: $lyellow; transition: all 0.2s ease-in-out; padding: 2rem 1.5rem; }
       &:hover {
         .card-icon { background: darken($dyellow, 5%); }
         .card-body { background: darken($lyellow, 5%); }
@@ -317,7 +322,7 @@ body, html {
     }
     &.purple {
       .card-icon { color: white; background: $dpurple; font-size: 1.1em; transform: translate(-50%, -50%); left: 50%; border-top-left-radius: calc(50%); border-bottom-right-radius: calc(50%); transition: all 0.2s ease-in-out; }
-      .card-body { color: white; background: $lpurple; transition: all 0.2s ease-in-out; }
+      .card-body { color: white; background: $lpurple; transition: all 0.2s ease-in-out; padding: 2rem 1.5rem; }
       &:hover {
         .card-icon { background: darken($dpurple, 5%); }
         .card-body { background: darken($lpurple, 5%); }
@@ -325,7 +330,7 @@ body, html {
     }
     &.green {
       .card-icon { color: white; background: $dgreen; font-size: 1.1em; transform: translate(-50%, -50%); left: 50%; border-top-left-radius: calc(50%); border-bottom-right-radius: calc(50%); transition: all 0.2s ease-in-out; }
-      .card-body { color: white; background: $lgreen; transition: all 0.2s ease-in-out; }
+      .card-body { color: white; background: $lgreen; transition: all 0.2s ease-in-out; padding: 2rem 1.5rem; }
       &:hover {
         .card-icon { background: darken($dgreen, 5%); }
         .card-body { background: darken($lgreen, 5%); }
