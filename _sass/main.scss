@@ -127,10 +127,15 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   h1 {
-    font-size: 5em;
+    font-size: 4em;
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 4px #000;
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
   }
 }
 
@@ -278,6 +283,20 @@ body, html {
           }
       }
   }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+  }
 }
 
 .eoi {
@@ -324,6 +343,7 @@ body, html {
   }
   a { text-decoration: none; }
   .card {
+    height: 100%;
     img {
       height: 300px;
       object-fit: cover;

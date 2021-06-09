@@ -1,9 +1,11 @@
 ---
 layout: page
-title: "Visa Information"
+title: "COVID-19 and the Australian Border"
 ---
 
-<div class="alert alert-success mb-4" markdown="1">
+# Visa Information
+
+<div class="alert alert-success my-4" markdown="1">
 #### Letters of Invitation for Visa applications:
 Please complete your registration online to receive your letter of invitation. Invitations will be issued automatically as part of the registration confirmation process.
 {:.mb-0}
