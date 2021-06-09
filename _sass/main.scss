@@ -26,6 +26,7 @@ body, html {
   a {
     color: white;
     transition: all 0.2s ease-in-out;
+    font-size: 0.8rem;
     &:hover {
       &.facebook { color: #3B5998; }
       &.linkedin { color: #0E76A8; background-color: white; }
