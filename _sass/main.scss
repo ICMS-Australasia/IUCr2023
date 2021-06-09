@@ -50,8 +50,8 @@ body, html {
       padding: 0px;
     }
     .nav-link {
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
+      padding: 1.5rem 1rem;
+
     }
     .active {
       background: $black;
@@ -60,7 +60,10 @@ body, html {
     .dropdown-menu {
       border: none;
       background: #f2f2f2;
+      padding: 0;
+      overflow: hidden;
       a {
+        padding: 15px 20px;
         transition: all 0.2s ease-in-out;
         &:hover {
           background: darken(#f2f2f2, 10%);
@@ -179,22 +182,24 @@ body, html {
     font-weight: bold;
   }
   h1 {
-    font-size: 4em;
+    font-size: 4rem;
   }
   h2 {
-    font-size: 3em;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
   }
   h3 {
-    font-size: 2.5em;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
   }
   h4 {
-    font-size: 2.2em;
+    font-size: 1.5rem;
   }
   h5 {
-    font-size: 2em;
+    font-size: 1.2rem;
   }
   h6 {
-    font-size: 1.5em;
+    font-size: 1.1rem;
   }
   a {
     text-decoration: underline;
