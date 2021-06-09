@@ -208,6 +208,16 @@ body, html {
       color: lighten($dyellow, 10%);
     }
   }
+  .alert-success {
+    background-color: lighten($green, 40%);
+    border-radius: 0;
+    border: none;
+  }
+  .alert-secondary {
+    background-color: #f2f2f2;
+    border-radius: 0;
+    border: none;
+  }
   .button {
     width: 100%;
     background-color: $lyellow;
