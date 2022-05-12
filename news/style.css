@@ -32,6 +32,10 @@ h2 .sub {
   font-size: 1.5rem;
 }
 
+.mt-2 {
+  margin-top: 20px;
+}
+
 .pl-3 {
   padding-left: 30px;
 }
@@ -42,6 +46,14 @@ h2 .sub {
 
 .text-center {
   text-align: center;
+}
+
+.fr {
+  float: right;
+}
+
+.img-desc {
+  color: #999;
 }
 
 table {
@@ -120,11 +132,11 @@ table.keydates .shade {
 }
 
 .footer table {
-  padding: 0;
+  padding: 0 20px;
 }
 
 .footer td {
-  padding: 1em;
+  padding: 0;
 }
 
 .first {

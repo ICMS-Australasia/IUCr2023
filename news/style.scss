@@ -20,11 +20,17 @@ h2 {
     }
 }
 
+.mt-2 {margin-top: 20px;}
+
 .pl-3 { padding-left: 30px; }
 
 .header { line-height: 0;}
 
 .text-center { text-align: center; }
+
+.fr {float: right;}
+
+.img-desc { color: #999; }
 
 table { 
     border-top: 1px solid #ccc;
@@ -79,8 +85,8 @@ table {
         line-height: 1.5;
         margin-bottom: 30px;
     }
-    table {padding: 0;}
-    td {padding: 1em;}
+    table {padding: 0 20px;}
+    td {padding: 0;}
 }
 
 .first { margin-top: 0; padding-top: 0;}
