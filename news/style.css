@@ -32,6 +32,11 @@ h2 .sub {
   font-size: 1.5rem;
 }
 
+.fig {
+  margin: 0;
+  margin-left: 30px;
+}
+
 .mt-2 {
   margin-top: 20px;
 }
