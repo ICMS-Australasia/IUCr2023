@@ -20,6 +20,11 @@ h2 {
     }
 }
 
+.wrapper{
+    max-width: 600px;
+    margin:auto;
+}
+
 
 .fig{margin:0; margin-left:30px;}
 
@@ -36,7 +41,7 @@ h2 {
 .img-desc { color: #999; }
 
 table { 
-    border-top: 1px solid #ccc;
+    border:none !important;
     line-height: 1.5;
     background: white;
     &.keydates {
@@ -117,6 +122,29 @@ table {
         font-weight: bold;
         letter-spacing: -1px;
         padding: 1em;
+    }
+    
+}
+
+
+.btn-sm {
+    background: #662c91;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0;
+    a {
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    td {
+        padding: 0;
+        font: bold 26px/26px Arial, "sans-serif";
+        font-weight: bold;
+        letter-spacing: -1px;
+        padding:5px;
     }
     
 }
