@@ -24,12 +24,17 @@ a {
 
 h2 {
   color: #ec028c;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1;
 }
 
 h2 .sub {
   font-size: 1.5rem;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: auto;
 }
 
 .fig {
@@ -62,7 +67,7 @@ h2 .sub {
 }
 
 table {
-  border-top: 1px solid #ccc;
+  border: none !important;
   line-height: 1.5;
   background: white;
 }
@@ -156,7 +161,8 @@ table.keydates .shade {
 }
 
 .first {
-  margin-top: 0;
+  margin-top: 10;
+  margin-bottom: 0;
   padding-top: 0;
 }
 
@@ -201,6 +207,30 @@ table.keydates .shade {
   font-weight: bold;
   letter-spacing: -1px;
   padding: 1em;
+}
+
+.btn-sm {
+  background: #662c91;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0;
+}
+
+.btn-sm a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btn-sm td {
+  padding: 0;
+  font: bold 26px/26px Arial, "sans-serif";
+  font-weight: bold;
+  letter-spacing: -1px;
+  padding: 5px;
 }
 
 .alt-btn {
