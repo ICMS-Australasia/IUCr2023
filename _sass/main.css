@@ -6,23 +6,18 @@ body, html {
 .social {
   background: #202020;
 }
-
 .social a {
   color: white;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   font-size: 0.8rem;
 }
-
 .social a:hover.facebook {
   color: #3B5998;
 }
-
 .social a:hover.linkedin {
   color: #0E76A8;
   background-color: white;
 }
-
 .social a:hover.twitter {
   color: #00ACEE;
 }
@@ -30,50 +25,39 @@ body, html {
 .header {
   font-family: "Montserrat", sans-serif;
 }
-
 .header span {
   color: #1C75BC;
 }
-
 .header .title {
   font-size: 1.4em;
   line-height: 1.2em;
 }
-
 .header .navigation {
   background: #f2f2f2;
   border-radius: 50px;
 }
-
 .header .navigation .navbar {
   padding: 0px;
 }
-
 .header .navigation .nav-link {
   padding: 1.5rem 1rem;
 }
-
 .header .navigation .active {
   background: #202020;
 }
-
 .header .navigation .active.nav-link {
   color: white;
 }
-
 .header .navigation .dropdown-menu {
   border: none;
   background: #f2f2f2;
   padding: 0;
   overflow: hidden;
 }
-
 .header .navigation .dropdown-menu a {
   padding: 15px 20px;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 .header .navigation .dropdown-menu a:hover {
   background: #d9d9d9;
 }
@@ -88,51 +72,37 @@ body, html {
   color: white;
   text-shadow: 2px 2px 4px #000;
 }
-
 .banner a, .banner img {
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-  transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
-
 .banner a:hover, .banner img:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  transform: scale(1.02);
 }
-
 .banner .row {
   height: 100%;
 }
-
 .banner .date {
   font-size: 1.8em;
 }
-
 .banner .date span {
   font-size: 1.2em;
 }
-
 .banner .name {
-  font-size: 4.0em;
+  font-size: 4em;
   font-weight: 900;
   line-height: 1.4em;
 }
-
 .banner .name span {
   font-size: 1.2em;
   font-weight: 800;
 }
-
 .banner .location {
   font-size: 2em;
   font-weight: bold;
 }
-
 .banner .location span {
   font-size: 1.2em;
 }
-
 @media (max-width: 768px) {
   .banner {
     height: 500px;
@@ -155,14 +125,12 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .page-banner h1 {
   font-size: 4em;
   font-weight: bold;
   color: white;
   text-shadow: 2px 2px 4px #000;
 }
-
 @media (max-width: 768px) {
   .page-banner h1 {
     font-size: 3rem;
@@ -173,23 +141,19 @@ body, html {
   background: #1C75BC;
   color: white;
 }
-
 .countdown h1 {
   font-weight: 900;
   font-size: 2.5em;
   text-shadow: 2px 2px 4px #000;
 }
-
 .countdown h1 span {
   font-size: 1.1em;
 }
-
 .countdown h2 {
   font-weight: 900;
   font-size: 2em;
   text-shadow: 1px 1px 2px #000;
 }
-
 .countdown h2 span {
   font-size: 1.1em;
   text-shadow: 2px 2px 4px #000;
@@ -198,11 +162,9 @@ body, html {
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
   font-weight: bold;
 }
-
 .content h1 {
   font-size: 4em;
 }
-
 .content .button {
   width: 75%;
   background-color: #FBB040;
@@ -213,10 +175,8 @@ body, html {
   display: block;
   margin: 0 auto;
   border-radius: 50px;
-  -webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
 }
-
 .content .button:hover {
   background-color: #F7941D;
 }
@@ -224,58 +184,46 @@ body, html {
 .page-content {
   min-height: 400px;
 }
-
 .page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6 {
   font-weight: bold;
 }
-
 .page-content h1 {
   font-size: 4rem;
 }
-
 .page-content h2 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
-
 .page-content h3 {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
 }
-
 .page-content h4 {
   font-size: 1.5rem;
 }
-
 .page-content h5 {
   font-size: 1.2rem;
 }
-
 .page-content h6 {
   font-size: 1.1rem;
 }
-
 .page-content a {
   text-decoration: underline;
   color: #F7941D;
 }
-
 .page-content a:hover {
   color: #f9ab4e;
 }
-
 .page-content .alert-success {
   background-color: #cbefd0;
   border-radius: 0;
   border: none;
 }
-
 .page-content .alert-secondary {
   background-color: #f2f2f2;
   border-radius: 0;
   border: none;
 }
-
 .page-content .button {
   width: 100%;
   background-color: #FBB040;
@@ -286,18 +234,14 @@ body, html {
   display: block;
   margin: 0 auto;
   border-radius: 50px;
-  -webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
 }
-
 .page-content .button:hover {
   background-color: #F7941D;
 }
-
 .page-content .key-dates tr {
   border-bottom: 1px solid #DA1C5C;
 }
-
 .page-content .things-to-do h4 {
   position: absolute;
   color: white;
@@ -308,11 +252,9 @@ body, html {
   font-size: 1em;
   border-style: none;
 }
-
 .page-content .things-to-do h4 span {
   font-size: 1.2em;
 }
-
 .page-content .things-to-do .over {
   position: absolute;
   top: 0;
@@ -322,26 +264,21 @@ body, html {
   height: 100%;
   width: 100%;
   opacity: 0;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: rgba(0, 148, 68, 0.95);
 }
-
 .page-content .things-to-do .over p {
   font-size: 1em;
   font-weight: bold;
   color: white;
   margin: 0;
 }
-
 .page-content .things-to-do .over:hover {
   opacity: 1;
 }
-
 .page-content .things-to-do .over:focus {
   opacity: 1;
 }
-
 @media (max-width: 768px) {
   .page-content h1 {
     font-size: 3.5rem;
@@ -366,21 +303,17 @@ body, html {
   color: white;
   text-shadow: 2px 2px 4px #000;
 }
-
 .eoi h1, .eoi h2, .eoi h3, .eoi h4, .eoi h5, .eoi h6 {
   font-weight: bold;
 }
-
 .eoi h1 {
   font-size: 3em;
   text-shadow: 2px 2px 4px #000;
 }
-
 .eoi p {
   font-size: 1.3em;
   text-shadow: 2px 2px 4px #000;
 }
-
 .eoi .button {
   width: 75%;
   background-color: #202020;
@@ -391,10 +324,8 @@ body, html {
   display: block;
   margin: 0 auto;
   border-radius: 50px;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 .eoi .button:hover {
   background-color: #3a3a3a;
 }
@@ -402,109 +333,84 @@ body, html {
 .cards {
   background: #f2f2f2;
 }
-
 .cards h4 {
   font-weight: bold;
   margin-bottom: 1.5rem;
 }
-
 .cards a {
   text-decoration: none;
 }
-
 .cards .card {
   height: 100%;
 }
-
 .cards .card img {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .cards .card.yellow .card-icon {
   color: white;
   background: #F7941D;
   font-size: 1.1em;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   left: 50%;
-  border-top-left-radius: calc(50%);
-  border-bottom-right-radius: calc(50%);
-  -webkit-transition: all 0.2s ease-in-out;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
   transition: all 0.2s ease-in-out;
 }
-
 .cards .card.yellow .card-body {
   color: white;
   background: #FBB040;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   padding: 2rem 1.5rem;
 }
-
 .cards .card.yellow:hover .card-icon {
   background: #f28809;
 }
-
 .cards .card.yellow:hover .card-body {
   background: #faa627;
 }
-
 .cards .card.purple .card-icon {
   color: white;
   background: #662D91;
   font-size: 1.1em;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   left: 50%;
-  border-top-left-radius: calc(50%);
-  border-bottom-right-radius: calc(50%);
-  -webkit-transition: all 0.2s ease-in-out;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
   transition: all 0.2s ease-in-out;
 }
-
 .cards .card.purple .card-body {
   color: white;
   background: #92278F;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   padding: 2rem 1.5rem;
 }
-
 .cards .card.purple:hover .card-icon {
   background: #58277e;
 }
-
 .cards .card.purple:hover .card-body {
   background: #7e227b;
 }
-
 .cards .card.green .card-icon {
   color: white;
   background: #009444;
   font-size: 1.1em;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   left: 50%;
-  border-top-left-radius: calc(50%);
-  border-bottom-right-radius: calc(50%);
-  -webkit-transition: all 0.2s ease-in-out;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
   transition: all 0.2s ease-in-out;
 }
-
 .cards .card.green .card-body {
   color: white;
   background: #8DC63F;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   padding: 2rem 1.5rem;
 }
-
 .cards .card.green:hover .card-icon {
   background: #007b38;
 }
-
 .cards .card.green:hover .card-body {
   background: #80b636;
 }
@@ -517,22 +423,17 @@ body, html {
   background-size: cover;
   color: black;
 }
-
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
   font-weight: bold;
 }
-
 .footer h2 {
   font-size: 2.5em;
   margin-bottom: 1.5rem;
 }
-
 .footer h3 {
   font-size: 1.5em;
 }
-
 .footer a {
   color: black;
   text-decoration: underline;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
