@@ -17,6 +17,7 @@ a {
   padding: 10px 30px;
   border-top: 0;
 }
+
 .info td {
   font: 11px/16px Arial, sans-serif;
 }
@@ -38,8 +39,14 @@ h2 {
   font-size: 1.8rem;
   line-height: 1;
 }
+
 h2 .sub {
   font-size: 1.5rem;
+}
+
+td.bg-dark {
+  background: #1e1e9d;
+  color: white;
 }
 
 .wrapper {
@@ -81,14 +88,17 @@ table {
   line-height: 1.5;
   background: white;
 }
+
 table.keydates {
   padding: 0;
 }
+
 table.keydates th {
   background: #f7941e;
   color: white;
   text-align: left;
 }
+
 table.keydates .shade {
   background: #eee;
 }
@@ -96,6 +106,7 @@ table.keydates .shade {
 .keydates {
   border: 1px solid #ccc;
 }
+
 .keydates th, .keydates td {
   padding: 1em;
   border: 1px solid #ccc;
@@ -117,11 +128,13 @@ table.keydates .shade {
   border-bottom: 5px solid #049344;
   padding: 0;
 }
+
 .footer-header h2 {
   text-align: center;
   margin: 0;
   color: white;
 }
+
 .footer-header td {
   padding: 1em;
 }
@@ -131,20 +144,25 @@ table.keydates .shade {
   margin: 0 auto;
   border: 0;
 }
+
 .footer h3 {
   margin-bottom: 0;
   font-size: 1.3rem;
 }
+
 .footer a {
   color: black;
 }
+
 .footer .contact {
   line-height: 1.5;
   margin-bottom: 30px;
 }
+
 .footer table {
   padding: 0 20px;
 }
+
 .footer td {
   padding: 0;
 }
@@ -194,9 +212,11 @@ table.keydates .shade {
   border-radius: 50px;
   padding: 0;
 }
+
 .btn a {
   color: white;
 }
+
 .btn td {
   padding: 0;
   font: bold 26px/26px Arial, "sans-serif";
@@ -217,11 +237,13 @@ table.keydates .shade {
   border-radius: 5px;
   padding: 5px;
 }
+
 .btn-sm a {
   color: white;
   font-size: 16px;
   text-decoration: none;
 }
+
 .btn-sm td {
   padding: 0;
   font: bold 26px/26px Arial, "sans-serif";
@@ -247,4 +269,5 @@ table.keydates .shade {
     width: 100%;
     max-width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */

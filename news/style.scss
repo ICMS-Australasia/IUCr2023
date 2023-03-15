@@ -30,7 +30,10 @@ h2 {
         font-size: 1.5rem;
     }
 }
-
+td.bg-dark {
+    background: #1e1e9d;
+    color: white;
+}
 .wrapper{
     max-width: 600px;
     margin:auto;
