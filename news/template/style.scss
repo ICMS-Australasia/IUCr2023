@@ -1,0 +1,109 @@
+$grey-bg:#f2f2f2;
+$grey:#eee;
+$table-heading:#4267B2;
+$button-color:#4267B2;
+$button-text:white;
+$link-color:#4267B2;
+
+body{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    background: $grey-bg;
+    line-height: 1.5;
+    
+}
+
+a{
+    color: $link-color; 
+    text-decoration: none;
+    font-weight: bold;
+} 
+
+.title-block{
+    font-size: 14px;
+    background: $grey-bg;
+}
+
+table{
+    background:white;
+}
+
+.border-bottom{
+    border-bottom: 1px $grey solid;
+}
+
+h1, h2{
+    margin:0;
+    margin-top:30px;
+}
+
+.content-block-image{
+    width:600px;
+    h2{
+        margin-bottom:20px;
+    }
+}
+
+.registration-table{
+    width:560px;
+    border:1px $grey solid;
+    th{
+        background: $table-heading;
+        color:white;
+        font-weight: normal;
+    }
+}
+
+.grey-bg{
+    background: $grey; 
+}
+
+.content-block{
+    width:600px;
+    
+}
+
+.sponsor-block{
+    margin-bottom:40px;
+}
+
+.footer-block{
+    width:600px;
+    background: $grey;
+    h2{
+        text-align: center;
+    }
+    h4{
+        margin-top:0px;
+    }
+    table{
+        background:transparent;
+    }
+    a{
+        text-decoration: none;
+        color:$link-color;
+
+    }
+}
+.footer-name{
+    
+    font-size: 1.2em;
+    
+}
+
+
+.btn-table{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.btn{
+    
+    
+    background: $button-color;
+    a{
+        color: $button-text; 
+        text-decoration: none;
+        font-weight: bold;
+    } 
+    
+    
+}
