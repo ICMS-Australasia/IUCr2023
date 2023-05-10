@@ -12,11 +12,38 @@ body{
     
 }
 
+.title{
+    background: $grey;
+    font-size: 12px;
+}
+
 a{
     color: $link-color; 
     text-decoration: none;
     font-weight: bold;
 } 
+
+h1{
+    color:#299cce;
+    margin-top:0;
+}
+
+.green{
+    color:#3ab54a;
+}
+.pink{
+    color:#ef008c;
+}
+
+.yellow{
+    color:#f79c10;
+}
+
+.contact{
+    background: #632994 !important;
+    color:white;
+    
+}
 
 table{
     background:white;
@@ -28,7 +55,7 @@ table{
 
 h1, h2{
     margin:0;
-    margin-top:30px;
+    
 }
 
 .content-block-image{
@@ -76,7 +103,6 @@ h1, h2{
     a{
         text-decoration: none;
         color:$link-color;
-
     }
 }
 .footer-name{
