@@ -1,0 +1,127 @@
+body {
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  background: #f2f2f2;
+  line-height: 1.5;
+}
+
+.title {
+  background: #eee;
+  font-size: 12px;
+}
+
+a {
+  color: #299cce;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  color: #299cce;
+  margin-top: 0;
+}
+
+.blue {
+  color: #299cce;
+}
+
+.green {
+  color: #3ab54a;
+}
+
+.pink {
+  color: #ef008c;
+}
+
+.yellow {
+  color: #f79c10;
+}
+
+.purple {
+  color: #7b1984;
+}
+
+.red {
+  color: red;
+}
+
+.contact {
+  background: #299cce !important;
+  color: white;
+}
+
+table {
+  background: white;
+}
+
+.border-bottom {
+  border-bottom: 1px #eee solid;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.content-block-image {
+  width: 600px;
+}
+.content-block-image h2 {
+  margin-bottom: 20px;
+}
+
+.registration-table {
+  width: 560px;
+  border: 1px #eee solid;
+}
+.registration-table th {
+  background: #4267B2;
+  color: white;
+  font-weight: normal;
+}
+
+.grey-bg {
+  background: #eee;
+}
+
+.content-block {
+  width: 600px;
+}
+
+.sponsor-block {
+  margin-bottom: 20px;
+}
+
+.footer-block {
+  width: 600px;
+  background: #eee;
+}
+.footer-block h2 {
+  text-align: center;
+}
+.footer-block h4 {
+  margin-top: 0px;
+}
+.footer-block table {
+  background: transparent;
+}
+.footer-block a {
+  text-decoration: none;
+  color: #299cce;
+}
+
+.footer-name {
+  font-size: 1.2em;
+}
+
+.btn-table {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #4267B2;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
