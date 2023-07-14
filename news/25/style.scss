@@ -1,0 +1,141 @@
+$grey-bg:#f2f2f2;
+$grey:#eee;
+$table-heading:#4267B2;
+$button-color:#4267B2;
+$button-text:white;
+$link-color:#299cce;
+
+body{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    background: $grey-bg;
+    line-height: 1.5;
+    
+}
+
+.title{
+    background: $grey;
+    font-size: 12px;
+}
+
+a{
+    color: $link-color; 
+    text-decoration: none;
+    font-weight: bold;
+} 
+
+h1{
+    color:#299cce;
+    margin-top:0;
+}
+
+.blue{
+    color:#299cce;
+}
+.green{
+    color:#3ab54a;
+}
+.pink{
+    color:#ef008c;
+}
+
+.yellow{
+    color:#f79c10;
+}
+
+.purple{
+    color:#7b1984;
+}
+
+.red{
+    color:red;
+}
+
+.contact{
+    background: #299cce!important;
+    color:white;
+    
+}
+
+table{
+    background:white;
+}
+
+.border-bottom{
+    border-bottom: 1px $grey solid;
+}
+
+h1, h2{
+    margin:0;
+    
+}
+
+.content-block-image{
+    width:600px;
+    h2{
+        margin-bottom:20px;
+    }
+}
+
+.registration-table{
+    width:560px;
+    border:1px $grey solid;
+    th{
+        background: $table-heading;
+        color:white;
+        font-weight: normal;
+    }
+}
+
+.grey-bg{
+    background: $grey; 
+}
+
+.content-block{
+    width:600px;
+    
+}
+
+.sponsor-block{
+    margin-bottom:20px;
+}
+
+.footer-block{
+    width:600px;
+    background: $grey;
+    h2{
+        text-align: center;
+    }
+    h4{
+        margin-top:0px;
+    }
+    table{
+        background:transparent;
+    }
+    a{
+        text-decoration: none;
+        color:$link-color;
+    }
+}
+.footer-name{
+    
+    font-size: 1.2em;
+    
+}
+
+
+.btn-table{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.btn{
+    
+    
+    background: $button-color;
+    a{
+        color: $button-text; 
+        text-decoration: none;
+        font-weight: bold;
+    } 
+    
+    
+}
